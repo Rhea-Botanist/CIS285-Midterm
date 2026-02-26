@@ -1,9 +1,9 @@
 public class factorialcalculator {
     public static void main(String[] args) {
-        int num = 11;  // Predefined number to calculate factorial
+        int num = 12;  // Predefined number to calculate factorial
         int factorial = 1;
 
-        for (int i = 0; i <= num; i++) { // Loop through numbers
+        for (int i = 1; i <= num; i++) { // Loop through numbers
             factorial *= i;  // Multiply current number
         }
 
